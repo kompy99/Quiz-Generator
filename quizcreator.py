@@ -16,10 +16,10 @@ from transformers import BartTokenizer, BartForConditionalGeneration
 from timeit import default_timer as timer
 
 #Enter your OpenAI API key here
-openai.api_key = "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"
+openai.api_key = "<OPENAI-API-KEY>"
 
 # Enter the path to your PDF here
-pdf_path = '/Users/varun/repos/Quiz-Generator/Test/LeanStore.pdf'
+pdf_path = '<PDF-PATJ>'
 
 path = os.path.dirname(evadb.__file__)
 
