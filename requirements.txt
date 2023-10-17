@@ -1,0 +1,4 @@
+evadb[document, notebook]
+openai
+tiktoken
+transformers
