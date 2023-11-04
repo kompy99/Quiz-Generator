@@ -19,7 +19,7 @@ from timeit import default_timer as timer
 openai.api_key = "<OPENAI-API-KEY>"
 
 # Enter the path to your PDF here
-pdf_path = '<PDF-PATJ>'
+pdf_path = '<PDF-PATH>'
 
 path = os.path.dirname(evadb.__file__)
 
@@ -138,7 +138,7 @@ num_questions = len(quiz_data['questions'])
 print("\nYour practice quiz is ready!")
 
 print("\nPRACTICE QUIZ\n--------------\n\n")
-print(f"Instructions\n-------------\n\nThere will be {num_questions} questions in total. \nFor each question, enter only your choice (a,b,c or d). \nYou will see your score at the end.\n\nGood luck!!")
+print(f"Instructions\n-------------\n\nThere will be {num_questions} questions in total. \nFor each question, enter only your choice (1,2,3 or 4). \nYou will see your score at the end.\n\nGood luck!!")
 
 question_num = 0
 
