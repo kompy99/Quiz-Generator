@@ -23,7 +23,7 @@ To install the Quiz Generator, follow these steps:
     ```
 4. The application is now ready to run
 
-## Run
+## Usage
 1. Open a terminal
 2. Navigate to the project folder
 3. Run the application using the command `python quizcreator.py`.
